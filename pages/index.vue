@@ -1,31 +1,13 @@
 <template>
     <div>
         <navbar />
-        <cabecera />
-        <cuadro-de-texto-izquierda />
-        <bloques />
+        <cabeceras-cabecera />
+        <cuadros-texto-imagen-izquierda />
+        <cuadros-bloques />
         <linea-tiempo />
-        <contenido />
-        <carrusel />
-        <contact />
+        <cuadros-contenido />
+        <carruseles-carrusel/>
+        <forms-contact />
         <footers />
     </div>
 </template>
-<style>
-.container {
-  padding-right: 15px;
-  padding-left: 15px;
-  margin-right: auto;
-  margin-left: auto;
-}
-.row {
-  display: flex;
-  flex-wrap: wrap;
-  margin-left: 0;
-  margin-right: 0;
-}
-body {
-  margin: 0;
-  padding: 0;
-}
-</style>
